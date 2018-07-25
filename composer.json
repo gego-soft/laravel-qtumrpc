@@ -1,5 +1,5 @@
 {
-    "name": "Gegosoft/laravel-qtumdrpc",
+    "name": "gegosoft/laravel-qtumdrpc",
     "type": "library",
     "description": "Qtum JSON-RPC  for Laravel",
     "keywords": ["laravel","bitcoin","api","jsonrpc","guzzle"],
