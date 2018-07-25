@@ -59,12 +59,12 @@ class ServiceProvider extends IlluminateServiceProvider
     {
         $this->app->singleton('qtumd', function ($app) {
             return new QtumClient([
-                'scheme' => $app['config']->get('qtumd.scheme', 'http'),
-                'host'   => $app['config']->get('qtumd.host', 'localhost'),
-                'port'   => $app['config']->get('qtumd.port', 8332),
-                'user'   => $app['config']->get('qtumd.user'),
-                'pass'   => $app['config']->get('qtumd.password'),
-                'ca'     => $app['config']->get('qtumd.ca'),
+                'scheme' => $app['config']->get('qtum.scheme', 'http'),
+                'host'   => $app['config']->get('qtum.host', 'localhost'),
+                'port'   => $app['config']->get('qtum.port', 8332),
+                'user'   => $app['config']->get('qtum.user'),
+                'pass'   => $app['config']->get('qtum.password'),
+                'ca'     => $app['config']->get('qtum.ca'),
             ]);
         });
     }
